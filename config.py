@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SubhiChiku/DAXXMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Leharmusicbot/CLOON")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AHI_DOSTU")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ZALIMAfighterCLUB⁸")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+a4iqg-3yzxQwNWY1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/hindi_chattings_zone")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/0f3160f9e18eaf7c48f29.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/e27edd5a61b1abf18e7fc.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
