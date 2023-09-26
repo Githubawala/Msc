@@ -44,12 +44,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="Sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="DOSTU_AHI", user_id=OWNER
+                text="MALIK", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="Rᴏᴘᴇ", url=f"https://t.me/lOve_AHI"
+                text="Rᴏᴘᴇ", url=f"https://t.me/AHI_DOSTU"
             )
         ],
      ]
