@@ -61,14 +61,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
-            ),
-            InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴏᴡɴᴇʀ", url=f"https://t.me/love_ahi"
             )
         ],
@@ -131,14 +123,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
-            ),
-            InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴏᴡɴᴇʀ", url=f"https://t.me/love_ahi"
             )
         ],
@@ -173,14 +157,6 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
-            ),
-            InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴏᴡɴᴇʀ", url=f"https://t.me/love_ahi"
             )
         ],
@@ -209,14 +185,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="⏹", callback_data=f"ADMIN Stop|{chat_id}"
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
-            ),
-            InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
-            )
         ],
         [
             InlineKeyboardButton(
@@ -380,14 +348,6 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="⏹", callback_data=f"ADMIN Stop|{chat_id}"
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
-            ),
-            InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
-            )
         ],
         [
             InlineKeyboardButton(
